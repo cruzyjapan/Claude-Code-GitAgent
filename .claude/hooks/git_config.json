@@ -1,0 +1,36 @@
+{
+  "system": {
+    "language": "ja",
+    "auto_push": true,
+    "target_branch": "main",
+    "commit_prefix": "",
+    "max_title_length": 120
+  },
+  "analysis": {
+    "include_file_changes": true,
+    "summarize_code_changes": true,
+    "detect_function_changes": true,
+    "detect_bug_fixes": true
+  },
+  "message_templates": {
+    "ja": {
+      "feat": "{summary}\n\n{details}",
+      "fix": "バグ修正: {summary}\n\n{details}",
+      "refactor": "リファクタリング: {summary}\n\n{details}",
+      "docs": "ドキュメント更新: {summary}\n\n{details}"
+    },
+    "en": {
+      "feat": "{summary}\n\n{details}",
+      "fix": "Fix: {summary}\n\n{details}",
+      "refactor": "Refactor: {summary}\n\n{details}",
+      "docs": "Docs: {summary}\n\n{details}"
+    }
+  },
+  "ignore_patterns": [
+    "*.tmp",
+    "*.log",
+    ".DS_Store",
+    "__pycache__/",
+    "*.pyc"
+  ]
+}
